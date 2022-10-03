@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-03T13:14:10 IST" name="Suite" finished-at="2022-10-03T13:15:16 IST" duration-ms="66544">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidationTest.Standalo()[pri:0, instance:Framework_3.Nwpro.ErrorValidationTest@73194df]" name="Standalo" class="Framework_3.Nwpro.ErrorValidationTest"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2022-10-03T13:14:10 IST" name="ErrorValidation Test" finished-at="2022-10-03T13:14:22 IST" duration-ms="12442">
+      <class name="Framework_3.Nwpro.ErrorValidationTest">
+        <test-method signature="Standalo()[pri:0, instance:Framework_3.Nwpro.ErrorValidationTest@73194df]" started-at="2022-10-03T13:14:10 IST" name="Standalo" finished-at="2022-10-03T13:14:22 IST" duration-ms="12307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Standalo -->
+      </class> <!-- Framework_3.Nwpro.ErrorValidationTest -->
+    </test> <!-- ErrorValidation Test -->
+    <test started-at="2022-10-03T13:14:10 IST" name="Standalonetest3 Test" finished-at="2022-10-03T13:15:16 IST" duration-ms="66544">
+      <class name="Framework_3.Nwpro.Standalonetest3">
+        <test-method signature="Standalo(java.util.HashMap)[pri:0, instance:Framework_3.Nwpro.Standalonetest3@a3d9978]" started-at="2022-10-03T13:14:10 IST" name="Standalo" data-provider="getDataa" finished-at="2022-10-03T13:14:36 IST" duration-ms="26080" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Pavan@558, email=santoshpavan.111@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Standalo -->
+        <test-method signature="Standalo(java.util.HashMap)[pri:0, instance:Framework_3.Nwpro.Standalonetest3@a3d9978]" started-at="2022-10-03T13:14:36 IST" name="Standalo" data-provider="getDataa" finished-at="2022-10-03T13:14:59 IST" duration-ms="23058" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Hemanth@4435, email=pavanvetcha558@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Standalo -->
+        <test-method signature="OrderTest()[pri:0, instance:Framework_3.Nwpro.Standalonetest3@a3d9978]" started-at="2022-10-03T13:14:59 IST" name="OrderTest" finished-at="2022-10-03T13:15:16 IST" depends-on-methods="Framework_3.Nwpro.Standalonetest3.Standalo" duration-ms="17288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderTest -->
+      </class> <!-- Framework_3.Nwpro.Standalonetest3 -->
+    </test> <!-- Standalonetest3 Test -->
+  </suite> <!-- Suite -->
+</testng-results>
